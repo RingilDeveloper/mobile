@@ -144,3 +144,8 @@ header .logo{
 .main-exchange-rates-container span{
   margin-left: 10px;
 }
+.main-exchanges-actulization{
+  margin-top: 20px;
+  padding:10px;
+  background-color: #F7931A82;
+}
