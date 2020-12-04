@@ -209,7 +209,9 @@ header .logo{
   justify-content: center;
   padding-top: 50px;
   background-image: url(../assets/images/bitcoinbaby.jpg);
-  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .bitcoin-image h2{
   color:var(--just-white);
@@ -241,7 +243,6 @@ header .logo{
 }
 .plans-container--slider{
  display: flex;
- justify-content: center;
  align-items: center;
  width: 100%;
  overflow-x: scroll;
@@ -319,7 +320,6 @@ header .logo{
   height: 150px;
   justify-content: space-evenly;
   align-items: center;
-
   background-color: var(--bitcoin-orange);
 }
 .footer .footer-links{
